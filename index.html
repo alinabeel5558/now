@@ -1,113 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>امتحان</title>
+  <title>Quiz</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" Defer >  </script>
+  <!-- TODO: 1. Link the script tag -->
+  <script src="script.js" defer></script>
 </head>
 <body>
   <div id="alert">
-    <div class="alert-title">مبروش</div>
-    عفية بالسبع
+    <div class="alert-title">Congratulations!!</div>
+    You got them all right!
   </div>
   <form id="quiz-form">
     <ol>
       <li class="question-item">
-        <div>كم عدد جنود معسكر لفل 9؟ </div>
+        <div>What does this code return? (<code>0 || '' || false || "Hi"</code>)</div>
         <div>
           <ol>
             <li class="answer-item">
               <label>
                 <input class="answer" type="radio" name="answer-1" value="false">
-                <code>200</code>
+                <code>0</code>
               </label>
             </li>
             <li class="answer-item">
               <label>
                 <input class="answer" type="radio" name="answer-1" value="true">
-                <code>خير من الله</code>
+                <code>"Hi"</code>
               </label>
             </li>
             <li class="answer-item">
               <label>
                 <input class="answer" type="radio" name="answer-1" value="false">
-                <code>ياتو50</code>
+                <code>false</code>
               </label>
             </li>
             <li class="answer-item">
               <label>
                 <input class="answer" type="radio" name="answer-1" value="false">
-                <code>تريله</code>
+                <code>''</code>
               </label>
             </li>
           </ol>
         </div>
       </li>
       <li class="question-item">
-        <div>اسواء تشكيلة</div>
+        <div>What is it called when a function calls itself?</div>
         <div>
           <ol>
             <li class="answer-item">
               <label>
                 <input class="answer" type="radio" name="answer-2" value="false">
-                ماينر
+                Inception
               </label>
             </li>
             <li class="answer-item">
               <label>
                 <input class="answer" type="radio" name="answer-2" value="false">
-                ماينر و ملكة ماشية
+                Self-Referential
               </label>
             </li>
             <li class="answer-item">
               <label>
                 <input class="answer" type="radio" name="answer-2" value="true">
-                تنانين
+                Recursion
               </label>
             </li>
             <li class="answer-item">
               <label>
                 <input class="answer" type="radio" name="answer-2" value="false">
-                ماينر اثناء الحرب
+                Who Cares
               </label>
             </li>
           </ol>
         </div>
       </li>
       <li class="question-item">
-        <div>ما هي الرتبة الحالية لياتو؟</div>
+        <div>How do you access the value of the <code>data-count</code> data attribute in JavaScript?</div>
         <div>
           <ol>
             <li class="answer-item">
               <label>
-                <input class="answer" type="radio" name="answer-3" value="false">
-                <code> الغاءءد</code>
-              </label>
-            </li>
-            <li class="answer-item">
-              <label>
-                <input class="answer" type="radio" name="answer-3" value="false">
-                <code>القواد </code>
-              </label>
-            </li>
-            <li class="answer-item">
-              <label>
                 <input class="answer" type="radio" name="answer-3" value="true">
-                <code>القايد</code>
+                <code>element.dataset.count</code>
               </label>
             </li>
             <li class="answer-item">
               <label>
                 <input class="answer" type="radio" name="answer-3" value="false">
-                <code>من هوا ياتو</code>
+                <code>element.dataAttribute.count</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                <code>element.dataset.dataCount</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                <code>element.dataCount</code>
               </label>
             </li>
           </ol>
         </div>
       </li>
     </ol>
-    <button type="submit">فحص الدهن</button>
+    <button type="submit">Check</button>
   </form>
 </body>
 </html>
